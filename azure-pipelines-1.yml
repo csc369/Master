@@ -21,4 +21,4 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: 'rm "C:/a.txt"'
+    script: 'rm "C:\\Users\\Public\\a.txt"'
