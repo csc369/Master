@@ -22,6 +22,6 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      'cd C://Users//Public'
+      'cd C:/Users/Public; rm a.txt'
       
-       'rm a.txt'
+      
