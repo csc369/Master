@@ -21,8 +21,8 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: echo'cd "C:\\Users\\Public\\";'
-            echo'rm a.txt'
+    script: echo"cd C:\\Users\\Public\\"
+            echo"rm a.txt"
 - task: CmdLine@2
   inputs:
     script: |
