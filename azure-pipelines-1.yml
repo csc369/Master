@@ -20,8 +20,6 @@ steps:
   displayName: 'Run a multi-line script'
 
 
-- task: CopyFiles@2
+- task: PowerShell@2
   inputs:
-    SourceFolder: 'C:/Users/Public'
-    Contents: 'a.txt'
-    TargetFolder: 'C:/Users/Desktop'
+    filePath: 'C:\\Users\\dossadmin\\Desktop\\ps.ps1'
