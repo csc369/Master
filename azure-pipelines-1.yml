@@ -23,11 +23,9 @@ steps:
   inputs:
     script: |
       'cd C:/Users/Public'
+      'pwd'
 
 
-- task: CmdLine@2
-  inputs:
-    script: |
-      'rm a.txt'
+
       
       
