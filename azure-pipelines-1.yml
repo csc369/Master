@@ -22,6 +22,4 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      pwd
-      cd C:/Users/Public
-      rm b.txt
+      hostname
