@@ -22,7 +22,7 @@ steps:
 - task: CmdLine@2
   inputs:
     script: echo'cd "C:\\Users\\Public\\";'
-    script: echo'rm a.txt'
+            echo'rm a.txt'
 - task: CmdLine@2
   inputs:
     script: |
