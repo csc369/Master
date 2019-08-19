@@ -24,4 +24,4 @@ steps:
     script: |
       cd C://Users//Public
       
-      rm a.txt
+       echo pwd
