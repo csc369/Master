@@ -21,11 +21,7 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: cd C:\\Users\\Public\\
-            rm a.txt
-- task: CmdLine@2
-  inputs:
     script: |
-      echo Write your commands here
+      cd C://Users//Public
       
-      echo Hello world
+      rm a.txt
