@@ -22,6 +22,6 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      cd C://Users//Public
+      'cd C://Users//Public'
       
-       echo pwd
+       'rm a.txt'
