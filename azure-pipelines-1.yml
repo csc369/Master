@@ -22,8 +22,8 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      'cd C:/Users/Public'
-      'pwd'
+      'del C:\Users\Public\a.txt'
+       
 
 
 
