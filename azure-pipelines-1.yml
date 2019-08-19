@@ -11,7 +11,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: del C:\Users\Public\a.txt
+- script: echo Hello World!
   displayName: 'Run a one-line script'
 
 - script: |
@@ -19,10 +19,6 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-- task: CmdLine@2
-  inputs:
-    script: |
-      'del C:\Users\Public\a.txt'
        
 
 
