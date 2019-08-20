@@ -19,7 +19,8 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-
-- task: PowerShell@2
+- task: CmdLine@2
   inputs:
-    filePath: 'C:/Users/dossadmin/Desktop/ps.ps1'
+    script: |
+      hostname
+      pwd
